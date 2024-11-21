@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A043987C2CEF5F4B00557632 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A043987B2CEF5F4B00557632 /* ConfettiSwiftUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A043984D2CEE7ECD00557632 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A043987C2CEF5F4B00557632 /* ConfettiSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = HomeSchool;
 			packageProductDependencies = (
+				A043987B2CEF5F4B00557632 /* ConfettiSwiftUI */,
 			);
 			productName = HomeSchool;
 			productReference = A043983B2CEE7ECC00557632 /* HomeSchool.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = A04398322CEE7ECC00557632;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A043987A2CEF5F4B00557632 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A043983C2CEE7ECC00557632 /* Products */;
 			projectDirPath = "";
@@ -591,6 +600,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A043987A2CEF5F4B00557632 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A043987B2CEF5F4B00557632 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A043987A2CEF5F4B00557632 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A04398332CEE7ECC00557632 /* Project object */;
 }
